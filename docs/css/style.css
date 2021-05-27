@@ -183,6 +183,35 @@ li {
 .skill-name {
   margin-bottom: 3px;
 }
+/*--- License ---*/
+.license-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.license-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.license-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.license-body {
+  flex: 1;
+}
+
+.license-name {
+  margin-bottom: 3px;
+}
 
 /*--- contact ---*/
 .contact {
